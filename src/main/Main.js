@@ -1,10 +1,11 @@
 import React from 'react';
 import style from './main.module.css';
+import containerStyle from './../common/styles/container.module.css'
 
 function Main() {
   return (
      <div className={style.mainBlock}>
-       <div className={style.container}>
+       <div className={containerStyle.container}>
        <div className={style.text}>
        <span>Hi There</span>
        <h1>I'm Christina Romanova</h1>
