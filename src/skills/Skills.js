@@ -4,7 +4,7 @@ import containerStyle from './../common/styles/container.module.css';
 import Skill from "./skill/Skill";
 
 
-function Skills() {
+export const Skills = () => {
   return (
      <div className={style.skillsBlock}>
        <div className={`${containerStyle.container} ${style.skillsContainer}`}>
@@ -26,4 +26,3 @@ function Skills() {
   );
 }
 
-export default Skills;
