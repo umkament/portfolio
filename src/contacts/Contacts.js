@@ -3,8 +3,7 @@ import style from './contacts.module.css';
 import containerStyle from "../common/styles/container.module.css";
 
 
-
-export const Contacts = ()=> {
+export const Contacts = () => {
   return (
      <div className={style.contactsBlock}>
        <div className={`${containerStyle.container} ${style.contactsContainer}`}>

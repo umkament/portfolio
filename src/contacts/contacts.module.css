@@ -2,6 +2,7 @@
     height: 100vh;
     background-color: #f1dee2;
 }
+
 .contactsContainer {
     flex-direction: column;
     justify-content: flex-start;
@@ -12,12 +13,13 @@
 }
 
 .form {
-    width: 350px;
+    min-width: 280px;
+    max-width: 350px;
     min-height: 100px;
     border: 1px solid;
     display: flex;
     flex-direction: column;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 .textarea {

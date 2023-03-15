@@ -2,11 +2,11 @@ import React from 'react';
 import style from './project.module.css';
 
 
-function Project(props) {
+const Project = (props) => {
   return (
      <div className={style.project}>
        <div className={style.imgContainer}>
-         <div className={style.image}></div>
+         {/*<div className={style.image}></div>*/}
          <button className={style.button}>show</button>
        </div>
        <div className={style.allText}>

@@ -4,7 +4,6 @@ import containerStyle from './../common/styles/container.module.css';
 import Project from "./project/Project";
 
 
-
 export const Projects = () => {
   return (
      <div className={style.projectsBlock}>
