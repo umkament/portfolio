@@ -1,6 +1,6 @@
 .project {
     width: 330px;
-    background-color: #f1dee2;
+    background-color: #252528;
 }
 
 .imgContainer {
@@ -11,6 +11,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .button {
@@ -19,20 +22,31 @@
     width: 100px;
 }
 
-.allText {
+.projectInfo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+    padding: 22px 20px;
 }
 
-.title {
-    border: 1px solid;
-    background-color: rgba(141, 198, 198, 0.65);
+.projectTitle {
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #fff;
 }
 
 .description {
     border: 1px solid;
-    background-color: rgba(141, 198, 198, 0.65);
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 0 5px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.7;
 }
 

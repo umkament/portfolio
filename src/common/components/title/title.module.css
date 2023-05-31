@@ -1,0 +1,25 @@
+.title {
+    margin: 0 0 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    position: relative;
+}
+
+.title h2 {
+    margin: 0;
+}
+
+.title::before {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 75px;
+    height: 2px;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
