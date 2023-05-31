@@ -1,6 +1,6 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: #c8d0d7;
+    background-color: #343a40;
 }
 
 .projectsContainer {
@@ -9,9 +9,18 @@
 }
 
 .title {
-    background-color: #f1dee2;
     display: flex;
     flex-wrap: wrap;
+}
+
+.title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1.2;
 }
 
 .projects {
@@ -20,6 +29,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
 
-
+@media screen and (max-width: 840px){
+    .projects {
+        justify-content: center;
+    }
 }

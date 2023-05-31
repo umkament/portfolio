@@ -8,9 +8,9 @@ export const Projects = () => {
   return (
      <div className={style.projectsBlock}>
        <div className={`${containerStyle.container} ${style.projectsContainer}`}>
-
-         <h2 className={style.title}>projects</h2>
-
+         <div className={style.title}>
+           <h2>projects</h2>
+         </div>
          <div className={style.projects}>
            <Project title={'Todolist'}
                     description={'keeping a list of things to do within a certain period of time'}
