@@ -1,4 +1,5 @@
 @import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
 
 .project {
     width: 450px;
@@ -23,11 +24,7 @@
             opacity: 0.3;
         }
         .button {
-            font-family: 'Poppins', sans-serif;
-            line-height: 40px;
-            font-size: 1rem;
-            font-weight: 500;
-            color: #fff;
+            @include text($fontFamily, 1rem, 500, 40px);
             background-color: $bgSecondColor;
             height: 40px;
             width: 100px;
@@ -41,21 +38,13 @@
         text-align: left;
         padding: 22px 20px;
         .projectTitle {
-            font-family: 'Poppins', sans-serif;
-            line-height: 25px;
-            font-size: 1.75rem;
-            margin-bottom: 10px;
-            font-weight: 500;
+            @include text($fontFamily, 1.75rem, 500, 25px);
             margin-top: 20px;
-            color: #fff;
+            margin-bottom: 10px;
         }
         .description {
-            font-family: 'Poppins', sans-serif;
+            @include text($fontFamily, 15px, 400, 1.7);
             margin: 15px 0 5px;
-            font-size: 15px;
-            color: #fff;
-            font-weight: 400;
-            line-height: 1.7;
         }
     }
 }
