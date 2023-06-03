@@ -1,10 +1,12 @@
 import React from 'react';
 import style from './main.module.scss';
 import containerStyle from './../common/styles/container.module.css'
-import {Title} from "../common/components/title/Title";
+import mainImg from './../assets/image/mainPhoto.JPG'
 
 const Main = () => {
-
+  const mainPhoto = {
+    backgroundImage: `url(${mainImg})`,
+  };
 
   return (
      <div className={style.mainBlock}>
@@ -15,7 +17,7 @@ const Main = () => {
            <span className={style.bgName}>Christina Romanova</span>
            <p className={style.prof}>Frontend developer</p>
          </div>
-         <div className={style.photo}></div>
+         <div className={style.photo} style={mainPhoto}></div>
        </div>
      </div>
   );

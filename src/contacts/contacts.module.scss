@@ -1,6 +1,9 @@
+@import './src/common/styles/sass/variables.scss';
+@import './src/common/styles/sass/mixins.scss';
+
 .contactsBlock {
     height: 100vh;
-    background-color: #f1dee2;
+    background-color: $bgSecondColor;
 }
 
 .contactsContainer {

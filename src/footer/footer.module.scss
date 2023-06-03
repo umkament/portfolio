@@ -1,6 +1,8 @@
+@import './src/common/styles/sass/variables.scss';
+@import './src/common/styles/sass/mixins.scss';
 .footerBlock {
     min-height: 150px;
-    background-color: #c8d0d7;
+    background-color: $bgColor;
 
 }
 
