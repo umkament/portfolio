@@ -1,20 +1,35 @@
 @import './src/common/styles/sass/variables.scss';
 @import './src/common/styles/sass/mixins.scss';
+
+
 .footerBlock {
     min-height: 150px;
     background-color: $bgColor;
+    .footerContainer {
+        flex-direction: column;
+        font-size: 500px;
+        .title{
+            font-family: 'Poppins', sans-serif;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.2;
+            color: $textColor;
+            text-transform: uppercase;
+        }
+        .footer {
+            width: 60%;
+            border: 1px solid;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            @media screen and (max-width: 515px){
+                justify-content: center;
+            }
+        }
+    }
 
 }
 
-.footerContainer {
-    flex-direction: column;
-    /*justify-content: flex-start;*/
-}
 
-.footer {
-    width: 60%;
-    border: 1px solid;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+
+

@@ -8,9 +8,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    @media screen and (max-width: 640px){
-        justify-content: center;
-    }
     .icon {
         height: 60px;
         width: 60px;

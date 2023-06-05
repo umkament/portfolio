@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './main.module.scss';
-import containerStyle from './../common/styles/container.module.css'
+import containerStyle from '../common/styles/container.module.scss'
 import mainImg from './../assets/image/mainPhoto.JPG'
 
 const Main = () => {
@@ -10,7 +10,7 @@ const Main = () => {
 
   return (
      <div className={style.mainBlock}>
-       <div className={containerStyle.container}>
+
          <div className={style.text}>
            <span className={style.welcome}>Welcome</span>
            <h1 className={style.name}>I'm Christina Romanova</h1>
@@ -18,7 +18,7 @@ const Main = () => {
            <p className={style.prof}>Frontend developer</p>
          </div>
          <div className={style.photo} style={mainPhoto}></div>
-       </div>
+
      </div>
   );
 }

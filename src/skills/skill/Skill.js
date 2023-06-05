@@ -2,7 +2,7 @@ import React from 'react';
 import style from './skill.module.scss';
 
 
-function Skill(props) {
+export const Skill = (props) => {
   return (
      <div className={style.skill}>
        <div className={style.icon}></div>
@@ -12,4 +12,3 @@ function Skill(props) {
   );
 }
 
-export default Skill;
