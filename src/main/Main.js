@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './main.module.scss';
-import containerStyle from '../common/styles/container.module.scss'
 import mainImg from './../assets/image/mainPhoto.JPG'
 
 const Main = () => {

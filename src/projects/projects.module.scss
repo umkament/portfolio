@@ -1,11 +1,12 @@
 @import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
 
 .projectsBlock {
     min-height: 100vh;
     background-color: $bgColor;
     .projectsContainer {
-        flex-direction: column;
-        justify-content: flex-start;
+        @include container();
+        @include flex(row, space-around, flex-start,wrap);
         .projects {
             width: 100%;
             display: flex;
